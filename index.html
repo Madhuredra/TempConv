@@ -8,13 +8,14 @@
     <title>Temprature Converter</title>
 </head>
 <body>
-    <h1>Temprature Converter Celsius To Fahrenheit</h1>
+    <div class="credit">Created By Madhurendra Nath Tiwari</div>
     <div class="container">
-        <label for="text">Enter Some Value :</label>
+        <h2>Temprature Converter Celsius To Fahrenheit</h2><br><br>
+        <label for="text">Enter Value :</label><br>
         <input type="text" placeholder="Enter Temprature" value="" class="inpt">
         <span class="warn" style="color: red;"></span>
         <br>
-        <label for="slect">Select Temprature :</label>
+        <label for="slect">Select Temprature Of Value:</label><br>
         <select name="Temprature" id="temp">
             <option value="C" id="c">Celsius</option>
             <option value="F" id="f">Fahrenheit</option>
@@ -22,6 +23,7 @@
         <br>
         <button class="btn" onclick="find()">Calculate</button>
         <h1 class="ShowArea"></h1>
+        <p class="tq"></p>
     </div>
     <script src="app.js"></script>
 </body>

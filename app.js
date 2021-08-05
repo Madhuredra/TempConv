@@ -10,8 +10,11 @@ function find(){
             res = (x-32)*5/9;
             document.querySelector('.ShowArea').innerHTML = "The Celsius value of "+ x +" F is "+ res +" <sup>o</sup>C";
         }
+    document.querySelector('.tq').innerText = "Thank You For Using";
+
     }else{
         document.querySelector('.inpt').style.border = "1px solid red";
         document.querySelector('.warn').innerText = "Enter Value";
+        
     }
 }
